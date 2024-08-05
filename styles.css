@@ -1,0 +1,46 @@
+body {
+  background-color: #415a77;
+  color: White;
+  
+}
+
+#container {
+  background-color: #778da9;
+  width: 400px;
+  height: 400px;
+  padding: 50px;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+  color: #e0e1dd;
+  box-shadow: 10px 10px 10px #0d1b2a;
+}
+
+#txtRadius {
+  border: solid #1b263b;
+  width: 250px;
+}
+
+.button {
+padding-left: 10px;
+padding-right: 10px;
+border: solid #1b263b;
+}
+
+.button:hover {
+  background-color: #415a77;
+  color: #e0e1dd;
+}
+
+#txtRadius:hover {
+  background-color: #415a77;
+  color: #e0e1dd;
+}
+
+@media (max-width:768px) {
+  #container {
+   height: 100%;
+    width: 100%;
+  }
+}
+
